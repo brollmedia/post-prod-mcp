@@ -1,0 +1,12 @@
+{
+  "name": "post-prod-mcp",
+  "version": "0.1.0",
+  "description": "Connect post-prod.io (video review: notes on exact frames, approvals, versions) to Claude Code, Cursor or Codex in one command, and zip a project folder as a version's working files.",
+  "type": "module",
+  "bin": { "post-prod-mcp": "bin.js" },
+  "files": ["bin.js", "lib.js", "README.md"],
+  "engines": { "node": ">=18" },
+  "keywords": ["mcp", "claude", "claude-code", "video review", "post-prod"],
+  "homepage": "https://post-prod.io/mcp",
+  "license": "MIT"
+}
